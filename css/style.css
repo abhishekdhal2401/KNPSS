@@ -1,5 +1,19 @@
 
+*{font-family: 'Josefin Sans', sans-serif;}
+#logo-text{
+			font-weight: 700; text-decoration: underline;}
 
-#logo-text{font-weight: 700;}
-.banner-name{line-height:1.5;}
-.banner{background-color: yellow;}
+
+
+.banner-name{
+			padding-top: 10px;}
+
+
+
+
+.banner{
+			background-color: yellow;}
+
+
+#banner-text{
+			line-height: 12px;}
