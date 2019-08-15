@@ -25,22 +25,36 @@ img{
 	flex-direction: row;
 	justify-content: center;
 	background: linear-gradient(to bottom,#E5FF7A,#B1FE7A);
+	height: 75vh;
 }
 
 
 .left{
 	max-width: 25%;
 	width: 100%;
-	height: 72vh;
+	height: 74vh;
 	overflow-y: scroll;
 	left: 0;
 	position: sticky;
 	padding: 0 20px;
 }
 
+.left h1{
+	text-align: center;
+	margin-top: 10px;
+}
+
+.left p{
+	background: white;
+	padding: 1em 3em;
+	border-radius: 20px;
+	box-shadow: 2px 2px 5px #424242;
+}
+
 .center{
 	max-width: 50%;
 	width: 100%;
+	height: 75vh;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -50,12 +64,15 @@ img{
 
 .right{
 	max-width: 25%;
-	height: 73vh;
+	height: 75vh;
 	width: 100%;
-	padding: 0 20px;
+	padding: 10px 20px;
 	border-left: 1px solid black;
 }
 
+.right h1{
+	text-align: center;
+}
 
 .section-about{
 	height: 100vh;
@@ -88,4 +105,17 @@ border-radius: 10px;
 -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
 background-image: -webkit-linear-gradient(330deg, #424242 0%, #424242 100%);
 background-image: linear-gradient(120deg, #424242 0%, #424242 100%); }
+
+
+/* Carousel */
+
+#carouselExampleControls img{
+	max-width:90%;
+	width: 100%;
+	height: auto;
+	margin: auto auto;
+	border : 2px solid black;
+	border-top-left-radius: 20px;
+	border-bottom-right-radius: 20px;	
+}
 
