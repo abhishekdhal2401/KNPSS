@@ -20,7 +20,7 @@ img{
 }
 
 
-.carousel{
+.section{
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
@@ -68,3 +68,5 @@ img{
 	padding-top: 40px;
 	color: white;
 }
+
+
