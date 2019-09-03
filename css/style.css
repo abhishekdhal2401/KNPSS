@@ -85,6 +85,16 @@ img{
 	padding-top: 40px;
 	color: white;
 }
+.section-about-h3{
+	text-align: center;
+	text-decoration: underline;
+
+}
+
+.about-contents{
+	color: white;;
+	
+}
 
 
 /* scroll bar */
